@@ -1,4 +1,4 @@
-curl \
+curl -i \
 -H 'Accept: application/json' \
 -H 'Content-Type: application/json' \
 -H 'X-Mcash-Merchant: qbvxvi' \
