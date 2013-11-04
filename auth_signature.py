@@ -19,15 +19,15 @@ with open('sample-pubkey.pem', 'r') as fd:
 
 
 method = 'POST'
-url = 'https://zvs-test.appspot.com/merchant/v1/pos/'
-data = '{"id": "3", "name": "Kasse 3", "type": "store"}'
+url = 'https://merchanttestbed.appspot.com/merchant/v1/pos/'
+data = '{"id": "5", "name": "Kasse 5", "type": "store"}'
 content_md5 = base64.b64encode(MD5.new(data).digest())
 
 headers = {
-    'Accept': 'application/json',
+    'Accept': 'application/vnd.mcash.api.merchant.v1+json',
     'Content-Type': 'application/json',
-    'X-Mcash-Merchant': 'qbvxvi',
-    'X-Mcash-User': 'chazz',
+    'X-Mcash-Merchant': 'oky93d',
+    'X-Mcash-User': 'ch',
     'X-Mcash-Timestamp': '2013-10-28 11:54:23',
     'Content-MD5': content_md5,
 }
