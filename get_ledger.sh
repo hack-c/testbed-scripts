@@ -1,7 +1,7 @@
 curl -i \
 -H 'Accept: application/vnd.mcash.api.merchant.v1+json' \
 -H 'Content-Type: application/json' \
--H 'X-Mcash-Merchant: xzjs3s' \
+-H 'X-Mcash-Merchant: m1ctuq' \
 -H 'X-Mcash-User: ch' \
 -H 'Authorization: SECRET supersecret' \
-https://zvs-test.appspot.com/merchant/v1/ledger/gwok5na18a4vkndoxhngmt527n2j0kwa/
+https://merchanttestbed.appspot.com/merchant/v1/ledger/99nbgw0znxjqsiqx4qk5ymlr4dahxcpf/
